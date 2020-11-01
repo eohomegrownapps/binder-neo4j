@@ -29,11 +29,11 @@ rm master.zip
 
 # database
 cd /tmp
-git clone https://github.com/Timothy-G-Griffin/build_databases.cst.cam.ac.uk
+git clone https://github.com/eohomegrownapps/build_databases.cst.cam.ac.uk
 cd build_databases.cst.cam.ac.uk
-python build_IMDb_raw.py
-python build_IMDb_relational.py
-python build_IMDb_graph.py
+# python build_IMDb_raw.py
+# python build_IMDb_relational.py
+# python build_IMDb_graph.py
 
 sed -i 's+\$NEO4JBINPATH+${CONDA_DIR}/neo4j-community-4.1.3/bin+g' neo4j_load.sh
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 set -eux
 
-${CONDA_DIR}/neo4j-community-3.5.8/bin/neo4j start
+${CONDA_DIR}/neo4j-community-4.1.3/bin/neo4j start
 
 exec "$@"

@@ -11,3 +11,4 @@ git+https://github.com/innovationOUtside/cypher_magic.git
 
 iso3166
 iso639
+JayDeBeApi
